@@ -6,6 +6,7 @@
 % Body (main airframe)
 body.l = 
 body.d = 
+body.r = body.d/2;
 
 % NoseCone (von Karman)
 nose.l =

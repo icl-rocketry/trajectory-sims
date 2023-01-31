@@ -2,7 +2,7 @@ function Cnalpha1 = calculate_cnalpha1(M)
 % Ouput - Cnalpha
 % Input - Mach Number 
 
-load('barrowman.mat') % need to create a file to compute barrowmans equations
+run('barrowman.m') % need to create a file to compute barrowmans equations
 
 % prandtl glauert correction (should work for both sub and supersonic 
 beta = sqrt(abs(1-M^2));
