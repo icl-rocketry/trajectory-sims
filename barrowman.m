@@ -11,7 +11,7 @@ Ybar = body.r + (fin.span/3) * ybar; %m ean aerodynamic chord distance with the 
 f = sqrt((fin.Croot / 2 - fin.Ctip / 2)^2 + fin.span^2); % pre calculus. no physical meaning
 
 % pre calculating things to make things easier for me
-c1 = ((fin.Croot+fin.Ctip) /  2) * (body.r^2) * fin.span;
+c1 = ((fin.Croot+fin.Ctip)/2) * (body.r^2) * fin.span;
 c2 = ((fin.Croot + 2*fin.Ctip)/3) * body.r * (fin.span^2);
 c3 = ((fin.Croot + 3*fin.Ctip)/12) * (fin.span^3);
 
