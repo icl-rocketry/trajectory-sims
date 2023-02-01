@@ -30,6 +30,7 @@ fin.span = 0.23;
 fin.t_max = 0.04;
 fin.sweepLE = 27.8; % deg
 fin.delta = 0; 
+
 % Canards (NACA 0012 - swept maybe ?!)
 canard.number = 3;
 canard.Croot = 
