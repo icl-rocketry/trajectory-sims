@@ -15,3 +15,8 @@ c1 = ((fin.Croot+fin.Ctip)/2) * (body.r^2) * fin.span;
 c2 = ((fin.Croot + 2*fin.Ctip)/3) * body.r * (fin.span^2);
 c3 = ((fin.Croot + 3*fin.Ctip)/12) * (fin.span^3);
 
+% ---------- actual barrowmans stuff ----------
+% centre of pressure derivatives 
+
+CnalphaNose = 2 * pi *
+
