@@ -5,7 +5,7 @@
 
 % masses
 m_dry = 
-m_fuel = 
+m_fuel = 9; 
 m_wet = m_dry + m_fuel;
 
 % Body (main airframe)
